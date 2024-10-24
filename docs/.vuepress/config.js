@@ -4,10 +4,10 @@ import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
-  lang: "en-US",
+  lang: "zh-cn",
 
-  title: "VuePress",
-  description: "My first VuePress Site",
+  title: "gm-static-web",
+  description: "xxx",
 
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
@@ -136,5 +136,6 @@ export default defineUserConfig({
       hotReload: true,
     }),
   ],
+  base: "/gm-static-web/",
   bundler: viteBundler(),
 });
