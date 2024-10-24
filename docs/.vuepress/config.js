@@ -136,6 +136,5 @@ export default defineUserConfig({
       hotReload: true,
     }),
   ],
-  base: "/gm-static-web/",
   bundler: viteBundler(),
 });
