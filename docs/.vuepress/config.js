@@ -11,7 +11,6 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
-
     navbar: [
       "/",
       {
@@ -137,5 +136,6 @@ export default defineUserConfig({
       hotReload: true,
     }),
   ],
+  base: "/gm-static-web/",
   bundler: viteBundler(),
 });
